@@ -387,29 +387,46 @@ Si no aparece, explicad por qué Git ha podido combinar los cambios automáticam
 
 Al terminar debéis haber realizado:
 
-- [ ] Trabajo sobre un repositorio compartido.
-- [ ] Varias ramas.
-- [ ] Varios commits por persona.
-- [ ] Integraciones sin conflictos.
-- [ ] Al menos 4 conflictos provocados y resueltos.
-- [ ] Una resolución conservando el cambio del Alumno A.
-- [ ] Una resolución conservando el cambio del Alumno B.
-- [ ] Una resolución creando una solución diferente a las dos originales.
-- [ ] Una resolución combinando aportaciones de ambos.
-- [ ] Una situación en la que un alumno trabaje sobre una versión local desactualizada.
-- [ ] Actualización posterior respecto al repositorio remoto.
-- [ ] El programa final compila.
-- [ ] El programa final se ejecuta correctamente.
+- [X] Trabajo sobre un repositorio compartido.
+- [X] Varias ramas.
+- [X] Varios commits por persona.
+- [X] Integraciones sin conflictos.
+- [X] Al menos 4 conflictos provocados y resueltos.
+- [X] Una resolución conservando el cambio del Alumno A.
+- [X] Una resolución conservando el cambio del Alumno B.
+- [X] Una resolución creando una solución diferente a las dos originales.
+- [X] Una resolución combinando aportaciones de ambos.
+- [X] Una situación en la que un alumno trabaje sobre una versión local desactualizada.
+- [X] Actualización posterior respecto al repositorio remoto.
+- [X] El programa final compila.
+- [X] El programa final se ejecuta correctamente.
 
 ---
 
 ## Preguntas finales
 
 1. ¿Por qué dos personas pueden modificar el mismo archivo sin generar necesariamente un conflicto?
+Porque si hay dos partes que no se solapan entre si, no tiene porque haber ningun conflicto entre ellas.
+
 2. ¿Qué provoca que Git considere que existe un conflicto?
+Que ambas personas toquen la misma linea de codigo de manera diferente.
+
 3. ¿Un conflicto significa que alguien ha hecho algo mal?
+No tiene por que, un conflicto puede venir de una diferencia de ideas sin necesidad de que una de las ideas esté mal.
+
 4. ¿Quién debe decidir cuál debe ser el código definitivo?
+El ultimo que haga la merge, habiendo llegado a un acuerdo previo entre el equipo.
+
 5. ¿Qué diferencia existe entre `commit`, `push` y `pull`?
+- Commit es para guardar los cambios sin necesidad de subirlo aun a github (posterior a un git add).
+- Push es para subir los cambios al repositorio de github.
+- Pull es para actualizar el repositorio local con la ultima version de github.
+
 6. ¿Por qué es importante actualizar nuestra copia antes de comenzar nuevo trabajo?
+Para evitar posibles conflictos en las ramas.
+
 7. ¿Actualizar antes de empezar garantiza que nunca tendremos conflictos?
+No tiene por que. Pueden haber varias personas tocando la misma linea de codigo al mismo tiempo resolviendo un problema de manera diferente.
+
 8. ¿Por qué debemos comprobar que el programa funciona después de resolver un conflicto?
+Para asegurarnos de que todo funciona correctamente.
