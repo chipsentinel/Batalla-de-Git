@@ -29,6 +29,3 @@ Console.WriteLine("------------------------");
 Console.WriteLine("       GAME OVER");
 Console.WriteLine("   Gracias por jugar");
 Console.WriteLine("========================");
-
-string alumnoB = "Raúl";
-Console.WriteLine($"Desarrollador 2: {alumnoB}");
