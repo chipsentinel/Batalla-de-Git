@@ -106,9 +106,9 @@ Integrad ambas ramas.
 ### Pregunta
 
 ¿Ha aparecido algún conflicto?
-
+No
 ¿Por qué Git ha podido integrar automáticamente ambos cambios?
-
+Porque venian de dos ramas distintas y tocamos cosas diferentes. Lo cual no creo conflicto por trabajar exactamente en lo mismo. Tambien hicimos un pull de la rama dev antes de mergear de las feature para asegurarnos.
 ---
 
 ## Ronda 2 — Primer conflicto: mismo texto

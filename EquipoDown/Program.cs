@@ -1,6 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 Console.WriteLine("========================");
-Console.WriteLine("      EQUIPO DAWN");
+Console.WriteLine("      EQUIPO C#");
 Console.WriteLine("========================");
 
 string equipo = "Los programadores";
