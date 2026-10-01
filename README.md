@@ -184,7 +184,7 @@ Resolved el conflicto y completad el `merge`.
 Añadid previamente esta línea al proyecto:
 
 ```csharp
-double precioFinal = presupuesto * 2;
+double precioFinal = presupuesto * 1.5;
 ```
 
 Los dos alumnos deben partir de esta misma versión.
@@ -192,7 +192,7 @@ Los dos alumnos deben partir de esta misma versión.
 ### Alumno A
 
 ```csharp
-double precioFinal = presupuesto * 1.5;
+double precioFinal = presupuesto * 2;
 ```
 
 ### Alumno B
