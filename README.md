@@ -326,11 +326,21 @@ El resultado final deberá conservar correctamente el trabajo realizado por ambo
 ### Preguntas
 
 1. ¿Por qué el Alumno B estaba trabajando con una versión antigua?
-2. ¿Haber realizado un `commit` significa que tenemos la última versión del proyecto?
-3. ¿Haber realizado un `push` significa que tenemos los cambios realizados por nuestro compañero?
-4. ¿Qué operación permite obtener los cambios del repositorio remoto?
-5. ¿Qué habría sido recomendable hacer antes de comenzar la nueva funcionalidad?
+Por no hacer el pull de la dev para mergear a feature/nuevo-cambio-raul
 
+2. ¿Haber realizado un `commit` significa que tenemos la última versión del proyecto?
+No tiene porque, porque no hemos pulleado. En caso de no haber puleado podemos estar trabajando en una version antigua.
+
+3. ¿Haber realizado un `push` significa que tenemos los cambios realizados por nuestro compañero?
+Si no hemos hecho el pull antes, no.
+
+4. ¿Qué operación permite obtener los cambios del repositorio remoto?
+git pull origin (rama que deseas) y si es una hija seria:
+git checkout feature/""
+git merge develop
+
+5. ¿Qué habría sido recomendable hacer antes de comenzar la nueva funcionalidad?
+pullear, mergear y comenzar a trabajar.
 ---
 
 ## Buena práctica descubierta
@@ -346,7 +356,7 @@ Por ejemplo:
 ```bash
 git switch main
 git pull
-git switch -c feature/nueva-funcionalidad
+git switch -c feature/nueva-funcionalidad (o git checkout -b feature/nueva-funcionalidad  que es lo que usamos nosotros)
 ```
 
 De esta forma, la nueva rama parte de una versión actualizada del proyecto.
