@@ -12,8 +12,10 @@ double precioFinal = presupuesto + 25;
 Console.WriteLine($"Equipo: {equipo}");
 Console.WriteLine($"Precio final: {precioFinal} €");
 
-string alumnoA = "Laura";
-Console.WriteLine($"Desarrollador 1: {alumnoA}");
+string alumnoA = "Cristian";
+Console.WriteLine($"Desarrollador A: {alumnoA}");
+string alumnoB = "Raul";
+Console.WriteLine($"Desarrollador B: {alumnoB}");
 
 string lenguaje = "C#";
 Console.WriteLine($"Lenguaje: {lenguaje}");
@@ -32,6 +34,3 @@ Console.WriteLine("========================");
 Console.WriteLine("   PROGRAMA TERMINADO");
 Console.WriteLine("   Gracias por jugar");
 Console.WriteLine("========================");
-
-string alumnoB = "Raúl";
-Console.WriteLine($"Desarrollador 2: {alumnoB}");
