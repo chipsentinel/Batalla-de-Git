@@ -18,9 +18,9 @@ Console.WriteLine($"Puntos: {puntos}");
 Console.WriteLine($"Presupuesto: {presupuesto} €");
 
 
-Console.WriteLine("========================");
-Console.WriteLine("       FIN");
-Console.WriteLine("========================");
+Console.WriteLine("------------------------");
+Console.WriteLine("       GAME OVER");
+Console.WriteLine("------------------------");
 
 string alumnoB = "Raúl";
 Console.WriteLine($"Desarrollador 2: {alumnoB}");
