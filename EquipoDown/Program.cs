@@ -19,7 +19,8 @@ Console.WriteLine($"Presupuesto: {presupuesto} €");
 
 
 Console.WriteLine("========================");
-Console.WriteLine("       FIN");
+Console.WriteLine("   PROGRAMA TERMINADO");
+Console.WriteLine("   Gracias por jugar");
 Console.WriteLine("========================");
 
 string alumnoB = "Raúl";
