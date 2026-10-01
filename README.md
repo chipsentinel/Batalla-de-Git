@@ -305,8 +305,10 @@ Antes de continuar, comprobad:
 - Qué código aparece actualmente en GitHub.
 
 ¿Son iguales las tres versiones?
+No
 
 ¿Por qué?
+Dado a que la version del alumno B está en una rama totalmente diferente y el alumno A es el que ha estado trabajando y ha hecho el merge.
 
 ### Paso 4 — Intentad integrar el trabajo
 
