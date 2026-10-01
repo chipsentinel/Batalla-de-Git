@@ -4,6 +4,7 @@ Console.WriteLine("      EQUIPO C#");
 Console.WriteLine("========================");
 
 string equipo = "Los programadores";
+
 int puntos = 350;
 double presupuesto = 50;
 double precioFinal = presupuesto + 25;
@@ -16,6 +17,9 @@ Console.WriteLine($"Desarrollador 1: {alumnoA}");
 
 Console.WriteLine($"Puntos: {puntos}");
 Console.WriteLine($"Presupuesto: {presupuesto} €");
+
+string lenguaje = "Java";
+Console.WriteLine($"Lenguaje favorito: {lenguaje}");
 
 
 Console.WriteLine("------------------------");
