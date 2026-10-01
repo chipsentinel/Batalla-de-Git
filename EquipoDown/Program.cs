@@ -7,12 +7,12 @@ string equipo = "Los programadores";
 
 int puntos = 350;
 double presupuesto = 50;
-double precioFinal = presupuesto + 25;
+double precioFinal = presupuesto * 67;
 
 Console.WriteLine($"Equipo: {equipo}");
 Console.WriteLine($"Precio final: {precioFinal} €");
 
-string alumnoA = "Laura";
+string alumnoA = "Cristian";
 Console.WriteLine($"Desarrollador 1: {alumnoA}");
 
 string lenguaje = "C#";
@@ -27,9 +27,6 @@ Console.WriteLine($"Lenguaje favorito: {lenguaje}");*/
 
 Console.WriteLine("------------------------");
 Console.WriteLine("       GAME OVER");
-Console.WriteLine("------------------------");
-Console.WriteLine("========================");
-Console.WriteLine("   PROGRAMA TERMINADO");
 Console.WriteLine("   Gracias por jugar");
 Console.WriteLine("========================");
 
