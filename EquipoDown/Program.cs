@@ -14,6 +14,9 @@ Console.WriteLine($"Precio final: {precioFinal} €");
 string alumnoA = "Laura";
 Console.WriteLine($"Desarrollador 1: {alumnoA}");
 
+string lenguaje = "C#";
+Console.WriteLine($"Lenguaje: {lenguaje}");
+
 Console.WriteLine($"Puntos: {puntos}");
 Console.WriteLine($"Presupuesto: {presupuesto} €");
 
