@@ -21,8 +21,8 @@ Console.WriteLine($"Lenguaje: {lenguaje}");
 Console.WriteLine($"Puntos: {puntos}");
 Console.WriteLine($"Presupuesto: {presupuesto} €");
 
-string lenguaje = "Java";
-Console.WriteLine($"Lenguaje favorito: {lenguaje}");
+/*string lenguaje = "Java";
+Console.WriteLine($"Lenguaje favorito: {lenguaje}");*/
 
 
 Console.WriteLine("------------------------");
